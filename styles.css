@@ -47,6 +47,18 @@ main {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; /* Establece la posición relativa */
+}
+
+.photo::after {
+    content: ""; /* Crea un pseudo-elemento */
+    position: absolute; /* Establece la posición absoluta con respecto al contenedor .photo */
+    top: 0; /* Posiciona el pseudo-elemento en la parte superior del contenedor */
+    left: 0; /* Posiciona el pseudo-elemento en la parte izquierda del contenedor */
+    width: 100%; /* Establece el ancho igual al del contenedor */
+    height: 100%; /* Establece la altura igual al del contenedor */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    pointer-events: none; /* Permite que los eventos del ratón pasen a través del pseudo-elemento */
 }
 
 .photo img {
