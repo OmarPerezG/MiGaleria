@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Mi Galeria de Fotos</a>
+            <a class="navbar-brand">Mi Galeria de Fotos</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -21,7 +21,10 @@
                         <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galería</a>
+                        <a class="nav-link" href="galeria.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="academico.html">Academia</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacto</a>
@@ -30,6 +33,7 @@
             </div>
         </div>
     </nav>
+    
     <!--FOTOGRAFIA PRIMERA-->
     <div class="card text-dark border-0">
         <img src="Imagenes/1.png" class="card-img" alt="...">
@@ -40,40 +44,89 @@
             </div>
         </div>
     </div>
-    
+
     
     <!--ORIGEN-->
     <div class="card text-white border-0">
-        <div class="row g-0" style="background-color: #000;">
+        <div class="row g-0" style="background-color: #ffffff;">
             <div class="col-4">
                 <img src="Fotografias/PezVela.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-8">
                 <div class="card-body">
-                    <h5 class="card-title" style="font-size: 5vw; font-family: Georgia, serif;">Origen</h5>
-                    <p class="card-text" style="font-size: 1vw; font-family: Georgia, serif;">Manzanillo es una ciudad portuaria del océano Pacífico y un centro turístico en el estado mexicano de Colima. Tiene 2 bahías, la Bahía de Manzanillo y la Bahía de Santiago. Esta última es conocida por las playas como La Audiencia, con oleaje tranquilo para los deportes acuáticos. El mar de la costa tiene varios arrecifes de coral, naufragios y otros sitios para el buceo. El área tiene una alta concentración de peces espada y es famosa por la pesca deportiva de profundidad.</p>
+                    <h5 class="card-title" style="font-size: 5vw; font-family: Georgia, serif; color: #000000;">Origen</h5>
+                    <p class="card-text" style="font-size: 1vw; font-family: Georgia, serif; color: #000000;">Manzanillo es una ciudad portuaria del océano Pacífico y un centro turístico en el estado mexicano de Colima. Tiene 2 bahías, la Bahía de Manzanillo y la Bahía de Santiago. Esta última es conocida por las playas como La Audiencia, con oleaje tranquilo para los deportes acuáticos. El mar de la costa tiene varios arrecifes de coral, naufragios y otros sitios para el buceo. El área tiene una alta concentración de peces espada y es famosa por la pesca deportiva de profundidad.</p>
                 </div>
             </div>
         </div>
     </div>
     
+    <img src="Imagenes/5.png" class="responsive-image" alt="...">
+     
     
-    
-    
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Fotografias/estatua.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Fotografias/edificio.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Fotografias/cuencos.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Fotografias/aguila.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="Fotografias/osopolar.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="Fotografias/chango.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+      </div>
+<br>
     
     
 
-    
-    
-
 
 
     
     
     
-    <footer class="fixed-bottom bg-dark text-white text-center py-3">
-        <p class="mb-0">Derechos de autor &copy; 2024 - Omar Pérez Gutiérrez</p>
-    </footer>
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Síguenos en redes sociales</h5>
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h5>Contacto</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-envelope"></i> Correo electrónico: info@example.com</li>
+                    <li><i class="fas fa-phone"></i> Teléfono: +1234567890</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
     
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

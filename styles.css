@@ -109,3 +109,7 @@ footer {
 .navbar-nav .nav-link:hover {
     color: #ffffff; /* Cambiar el color de texto al pasar el mouse sobre los enlaces */
 }
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
