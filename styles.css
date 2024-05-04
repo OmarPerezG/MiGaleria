@@ -113,3 +113,11 @@ footer {
     max-width: 100%;
     height: auto;
 }
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espacio entre las imágenes */
+}
+.transparent-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Establece un fondo transparente con 50% de opacidad */
+}
